@@ -1,6 +1,5 @@
 # Plugin Development Console for MuseScore 4
-MuseScore 4 plugin that generates diatonic harmonies in Major/Minor Keys.
-Uses Markov changes to adhere to typical tonic/dominant rules.
+When MuseGroup updated MuseScore to version 4, they removed the built in plugin development console, making it impossible for devs to incrementally test their code. To fix this issue, I made a template plugin where devs can test blocks of code and print errors to the console.
 
 ## Install
 Move the folder into `Program Files/MuseScore 4/Plugins`. 
